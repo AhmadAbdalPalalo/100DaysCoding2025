@@ -10,3 +10,6 @@ public class Main {
         System.out.println("Nama: "+nama);        
         System.out.println("Umur: "+umur); 
         System.out.println("Tinggi: "+tinggi);  
+    }
+
+}
