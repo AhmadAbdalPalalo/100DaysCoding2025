@@ -11,7 +11,8 @@ public class Main {
         System.out.println("Umur: "+umur); 
         System.out.println("Tinggi: "+tinggi); 
 
-        /* 
+        /* Final variabel itu digunakan apabila kita membuat program yg tdak dapat di update seperti pada yg dibuat di Day sblmnya.
+            apabila kita menggunakan cara ini, kita harus meanmbahkan kata 'final' didepan tipe data agar cara ini berjalan.
         */
     }
 
