@@ -7,7 +7,7 @@ public class Abdalllll {
          System.out.print("Masukkan sisi: ");
          int sisi = D.nextInt();
          
-         long keliling = sisi*sisi;
-         System.out.println("Keliling persegi: " + keliling);
+         long luas = sisi*sisi;
+         System.out.println("luas persegi: " + luas);
     }
 }
