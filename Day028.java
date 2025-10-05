@@ -16,13 +16,13 @@ public class abdalggkatapengawasevaluasi {
         int e = 20;
         int f = 20;
         System.out.printf("Variable E = %d\nVariable F = %d \n",e,f);
-        System.out.println("Apakah E dan F BERBEDA? " + (e == f));
+        System.out.println("Apakah E dan F BERBEDA? " + (e != f));
         System.out.println("==========================");
         
         int g = 21;
         int h = 20;
         System.out.printf("Variable G = %d\nVariable H = %d \n",g,h);
-        System.out.println("Apakah G dan H BERBEDA? " + (g == h));
+        System.out.println("Apakah G dan H BERBEDA? " + (g != h));
         
         
         /* -> "(==) / SAMA DENGAN" 
