@@ -17,7 +17,6 @@ public class Day034 {
         
         int totalBelanja = harga * jumlah; //Operator Aritmatika
         double potongan = totalBelanja * diskon;
-        System.out.println(potongan);
         System.out.println("Nama pembeli: " + nama);
         System.out.println("Total belanja tanpa diskon: " + totalBelanja);
 
