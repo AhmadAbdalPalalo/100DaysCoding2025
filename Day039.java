@@ -15,11 +15,6 @@ public class Day039_mmbuat_Menu_dngn_if {
         System.out.println("Varian Hot + Rp 3.000");
         System.out.println("Varian Ice + Rp 5.000");
         
-        System.out.print("\nPilihan pesanan Anda : ");
-        String pilih = sc.nextLine();
-        System.out.print("Pilih varian: ");
-        String varian = sc.nextLine();
-        
         //harga dari 4 menu
         int aren = 10000;
         int matcha = 12000;
@@ -29,6 +24,11 @@ public class Day039_mmbuat_Menu_dngn_if {
         //harga tambahan varian
         int hot = 3000;
         int ice = 5000;
+
+        System.out.print("\nPilih pesanan Anda : ");
+        String pilih = sc.nextLine();
+        System.out.print("Pilih varian: ");
+        String varian = sc.nextLine();
         
         if (pilih.equalsIgnoreCase("Aren")) {
             if (varian.equalsIgnoreCase("hot")) {
