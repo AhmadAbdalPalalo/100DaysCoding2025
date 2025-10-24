@@ -8,17 +8,16 @@ public class Day047_Mnntukan_Hari {
         
         System.out.print("Masukkan Hari ke-: ");
         byte hariKe = sc.nextByte();
-        String hari = null;
         
         switch (hariKe){
-            case 1 -> hari = "Al-Ahad";
-            case 2 -> hari = "Al-Itsnayn";
-            case 3 -> hari = "Ath-Tsulaatsa'";
-            case 4 -> hari = "Al-Arbi'aa'";
-            case 5 -> hari = "Al-Khamiis";
-            case 6 -> hari = "Al-Jumu'ah";
-            case 7 -> hari = "As-Sabt";
+            case 1 -> System.out.println("Al-Ahad");
+            case 2 -> System.out.println("Al-Itsnayn");
+            case 3 -> System.out.println("Ath-Tsulaatsa'");
+            case 4 -> System.out.println("Al-Arbi'aa'");
+            case 5 -> System.out.println("Al-Khamiis");
+            case 6 -> System.out.println("Al-Jumu'ah");
+            case 7 -> System.out.println("As-Sabt");
+            default -> System.out.println("Angka tidak valid! Masukkan angka 1-7.");
         }
-        System.out.printf("Hari ke-%d adalah hari %s\n",hariKe,hari);
     }
 }
