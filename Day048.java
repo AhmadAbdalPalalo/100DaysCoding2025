@@ -6,14 +6,14 @@ public class Day048_Kalkulator_switch_case {
         Scanner sc = new Scanner (System.in);
         
         System.out.print("Masukkan angka pertama: ");
-        int angka1 = sc.nextInt();
+        double angka1 = sc.nextDouble();
         System.out.print("Masukkan angka kedua: ");
-        int angka2 = sc.nextInt();
+        double angka2 = sc.nextDouble();
         
         System.out.print("Tambah operator: ");
         char operator = sc.next().charAt(0);
         
-        int hasil = 0;
+        double hasil = 0;
         
         switch (operator){
             case '+' -> System.out.println("Hasil penjumlahan: " + (hasil + (angka1 + angka2)));
