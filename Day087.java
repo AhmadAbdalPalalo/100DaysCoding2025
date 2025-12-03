@@ -1,6 +1,5 @@
-import java.util.Scanner;
-
-public class Day087 {
+import java.util.*;
+public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
@@ -8,15 +7,16 @@ public class Day087 {
     
 		System.out.print("Masukkan buah: ");
 		String b = sc.nextLine().toLowerCase();
-    
+        int anu = 0;
 		for(int i = 0; i < a.length; i++){
 			if (b.equals(a[i])){
-				System.out.println("Buah Tersedia");
-				break;
-			}else{
-				System.out.println("Buah tidak tersedia");
-				break;
+			    anu++;
 			}
+		}
+		if(anu>0){
+		    System.out.println("Buah Tersedia");
+		}else{
+            System.out.println("Buah tidak  Tersedia");
 		}
 	}
 }
