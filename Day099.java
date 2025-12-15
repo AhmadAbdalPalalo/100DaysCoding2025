@@ -3,25 +3,24 @@
 import java.util.Scanner;
 
 public class Day099_Deret_Angka_Prima {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Masukkan angka: ");
         int n = sc.nextInt();
-        int tam = 0;
 
-        for (int i = 2; tam < n;) {
-            boolean b = true;
-            for (int j = 2; j * j <= i; j++) {
+        for (int i = 2; i <= n; i++) {
+            int pembagi = 0;
+
+            for (int j = 1; j <= i; j++) {
                 if (i % j == 0) {
-                    b = false;
-                    continue;
+                    pembagi++;
                 }
             }
-            if (b) {
+
+            if (pembagi == 2) {
                 System.out.print(i + " ");
-                tam++;
             }
-            i++;
         }
     }
 }
